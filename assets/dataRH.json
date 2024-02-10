@@ -1,0 +1,128 @@
+{
+  "resep": [
+    {
+      "id": 1,
+      "nama": "Insomnia/Sulit tidur",
+      "info": "Agar tidur nyenyak dan berkualitas",
+      "bahan": ["Segenggam Kangkung", "Segenggam Toge", "2 Gelas Air"],
+      "cara": ["Rebus kangkung dengan 2 gelas air", "Masukan toge setelah kangkung agak layu",
+                "Biarkan 1 menit, matikan kompor", "Bagi menjadi 2 gelas",
+                "Minum siang dan malam"],
+      "img": "insomnia",
+      "manfaat": ["Membantu masalah Insomnia atau sulit tidur"],
+      "sumber": "@nanacuisine_",
+      "tag": ["kangkung","toge","air"]
+    },
+    {
+      "id": 2,
+      "nama": "Demam anak umur dibawah 1 tahun",
+      "info": "Merawat demam anak umur bawah 1 tahun",
+      "bahan": ["Kunyit 1 potong","1 sdm Madu","1 Gelas Air"],
+      "cara": ["Blender Kunyit dengan air", "Endapkan atau diamkan beberapa menit",
+                "Ambil airnya dan campur dengan madu","minum"],
+      "img": "demambayi",
+      "manfaat": ["Penurun Demam anak"],
+      "sumber": "@nanacuisine_",
+      "tag": ["kunyit","madu","air"]
+    },
+    {
+      "id": 3,
+      "nama": "Ultimate",
+      "info": "Rekomendasi harian, penjaga daya tahan tubuh",
+      "bahan": ["2 kelingking kunyit","1 jempol jahe","1 bj jeruk nipis","3 sdm Madu asli","300ml air"],
+      "cara": ["Iris/parut/geprek kunyit dan jahe.",
+                "Masak dengan air hingga panas, jgn sampai mendidih.",
+                "Tunggu hangat lalu beri perasan jeruk nipis.",
+                "Tambahkan madu"],
+      "img": "ultimate",
+      "manfaat": ["Memelihara saluran pencernaan","Daya tahan tubuh","Anti kanker dan tumor","Bisa untuk terapi haid yg tidak teratur","Bisa untuk promil"],
+      "sumber": "@nanacuisine_",
+      "tag": ["kunyit","jahe","jeruknipis","madu","air"]
+    },
+	  {
+      "id": 4,
+      "nama": "Detox Rahim",
+      "info": "Mengurangi racun (zat jahat) pada rahim",
+      "bahan": ["250ml Air","Jahe 1 potong","3,5cm kayu manis","1 sdt kapulaga ( +/- 5-7 biji )","1 biji cengkeh","1 sdt ketumbar","Madu"],
+      "cara": ["Rebus air + jahe sampai hangat atau mendidih 2 menit saja",
+				"Masukkan kayu manis, kapulaga, cengkeh, ketumbar ke dalam gelas",
+				"Tuang air rebusan jahe, tunggu hangat baru tambahkan madu"],
+      "img": "detoxrahim",
+      "manfaat": ["Mengurangi racun (detox) khususnya rahim"],
+      "sumber": "@nanacuisine_",
+      "tag": ["air","jahe","kayumanis","kapulaga","cengkeh","ketumbar","madu"]
+    },
+	  {
+      "id": 5,
+      "nama": "Kista",
+      "info": "Mengurangi racun (zat jahat) pada reproduksi",
+      "bahan": ["3-5 batang Licorice (Akar Manis)","1/2 gelas Rumput Laut","Air secukupnya"],
+      "cara": ["Didihkan licorice (Akar Manis) di dalam air hingga keluar aroma dan warna", "Tambahkan rumput laut, setelah hangat baru di minum"],
+      "img": "kista",
+      "manfaat": ["Perawatan dan pencegahan penyakit kista"],
+      "sumber": "@nanacuisine_",
+      "tag": ["akarmanis","rumputlaut","air"]
+    },
+    {
+      "id": 6,
+      "nama": "Keputihan",
+      "info": "Mengatasi keputihan dan masalah haid lainnya",
+      "bahan": ["1 Jempol jahe","2 Jempol Kunyit","Asam jawa secukupnya","Madu secukupnya","250-300 ml air secukupnya"],
+      "cara": ["Rajang / iris tipis jahe & kunyit","Seduh dengan air mendidih","Masukan asam jawa",
+				    "Diamkan hingga hangat","Tambahkan madu","Minum selagi hangat","Minum sehari sekali"],
+      "img": "keputihan",
+      "manfaat": ["Mengatasi keputihan","Haid tidak pernah teratur/ tidak pernah haid","Nyeri haid",
+					    "Masalah haid yang lain","Bisa juga untuk promil"],
+	    "sumber": "@nanacuisine_",
+      "tag": ["jahe","kunyit","asam_jawa","madu","air"]
+    },
+	{
+      "id": 7,
+      "nama": "Haid Berlebihan",
+      "info": "Mengatasi haid berlebihan",
+      "bahan": ["1 batang kayumanis","1 jempol jahe","2 sdm madu","300 ml air panas"],
+      "cara": ["Seduh kayumanis dan jahe atau direbus dengan api kecil hingga hangat", "matikan kompor setelah hangat, tambahkan madu",
+				        "Jika perdarahan banyak, minum 2-3 x sehari","Jika tidak banyak, minum 1 x sehari","Minum sebelum makan "],
+      "img": "haid",
+      "manfaat": ["Membantu mengatasi haid berlebihan"],
+	    "sumber": "@nanacuisine_",
+      "tag": ["kayumanis","jahe","madu","air_panas"]
+    },
+    {
+      "id": 8,
+      "nama": "Perlancar Haid",
+      "info": "Memperlancar serta mengurangi nyeri saat haid",
+      "bahan": ["1 Jahe","2 jempol Kunyit","1 batang Sereh","Asam jawa secukupnya","Gula Aren / Madu secukupnya","Air secukupnya"],
+      "cara": ["Rajang / potong halus jahe, kunyit, sereh",
+				"Seduh dengan air mendidih",
+				"Masukan asam jawa setelah hangat",
+				"Beri madu / gula aren"],
+      "img": "haidlancar",
+      "manfaat": ["Haid tidak teratur/tidak pernah","Haid, keputihan","Nyeri haid","Bisa untuk promil"],
+	  "sumber": "@nanacuisine_",
+      "tag": ["jahe","kunyit","sereh","asam_jawa","gula_aren"]
+    },
+	{
+      "id": 9,
+      "nama": "Tuba Fallopi",
+      "info": "Untuk kesehatan Tuba Fallopi",
+      "bahan": ["1-2 Kunyit ukuran sejempol dewasa","Seujung sdt Lada Hitam","300 ml Air","Madu secukupnya"],
+      "cara": ["Kunyit di parut/diiris diseduh dengan air panas","Tunggu hangat","Beri madu dan lada hitam "],
+      "img": "tubafallopi",
+      "manfaat": ["Menjaga kesehatan tuba fallopi"],
+	  "sumber": "@nanacuisine_",
+      "tag": ["kunyit","lada_hitam","air_panas","madu"]
+    },
+	{
+      "id": 10,
+      "nama": "Memperbanyak Sperma",
+      "info": "Memperbanyak jumlah sperma",
+      "bahan": ["1/2 sdt Kunyit bubuk","2 cap habbatussauda serbuk","air panas"],
+      "cara": ["1/2 sdt kunyit bubuk di campurkan dengan 2 cap habbatussauda serbuk", "Seduh dengan air hangat secukupnya"],
+      "img": "sperma",
+      "manfaat": ["Memperbanyak jumlah sperma"],
+	  "sumber": "@nanacuisine_",
+      "tag": ["kunyit_bubuk","habbatussauda_kapsul","air_panas"]
+    }
+  ]
+}
