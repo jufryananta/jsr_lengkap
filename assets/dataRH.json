@@ -123,6 +123,31 @@
       "manfaat": ["Memperbanyak jumlah sperma"],
 	  "sumber": "@nanacuisine_",
       "tag": ["kunyit_bubuk","habbatussauda_kapsul","air_panas"]
+    },
+    {
+      "id": 11,
+      "nama": "Batuk/Pilek/Asma",
+      "info": "Membantu mengobati Batuk, pilek dan asma",
+      "bahan": ["3 sdm Jahe bubuk","3 sdm Lemon juice/Jeniper(Jeruk nipis peras)","3 sdm Kunyit bubuk","1 sdm Kayumanis bubuk","1/4 madu (50 ml)"],
+      "cara": ["Semua bahan di blender","Masukan di wadah kaca dan simpan dalam kulkas",
+				"Minum 1 sdm setiap pagi dan dan 1 sdm di malam hari."],
+      "img": "batukpilek",
+      "manfaat": ["Membantu mengobati Batuk, pilek dan asma"],
+	    "sumber": "@nanacuisine_",
+      "tag": ["jahe_bubuk","jeruk_nipis_peras","kunyit_bubuk","kayu_manis_bubuk","madu"]
+    },
+	  {
+      "id": 12,
+      "nama": "Alergi",
+      "info": "Mengatasi masalah alergi",
+      "bahan": ["1 batang kayumanis","3-5 biji cengkeh","3 biji bunga lawang","200-300 ml air panas","Madu secukupnya"],
+      "cara": ["Seduh semua bahan dengan air panas, kecuali madu",
+				"Setelah hangat, tambahkan madu",
+				"Minum selagi hangat"],
+      "img": "alergi",
+      "manfaat": ["Mengatasi masalah alergi"],
+	    "sumber": "@nanacuisine_",
+      "tag": ["kayumanis","cengkeh","bunga_lawang","air_panas","madu"]
     }
   ]
 }
