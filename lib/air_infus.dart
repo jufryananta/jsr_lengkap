@@ -76,10 +76,10 @@ class _DrawerExampleState extends State<IsiHalaman> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ramuan Herbal"),
+        title: const Text("Ramuan Herbal"),
         actions: [
           IconButton(
-              icon: Icon(Icons.search),
+              icon: const Icon(Icons.search),
               onPressed: () {
                 focusNode.requestFocus();
                 setState(() {
@@ -96,16 +96,16 @@ class _DrawerExampleState extends State<IsiHalaman> {
         Visibility(
           visible: _cari,
           child: Padding(
-            padding: EdgeInsets.only(left: 10, right: 10),
+            padding: const EdgeInsets.only(left: 10, right: 10),
             child: TextField(
               focusNode: focusNode,
               controller: fieldText,
-              style: TextStyle(fontSize: 18),
+              style: const TextStyle(fontSize: 18),
               onChanged: (value) => _runFilter(value),
               decoration: InputDecoration(
-                  prefixIcon: Icon(Icons.search),
+                  prefixIcon: const Icon(Icons.search),
                   suffixIcon: GestureDetector(
-                    child: Icon(Icons.clear),
+                    child: const Icon(Icons.clear),
                     onTap: () {
                       fieldText.clear();
                       setState(() {
@@ -142,7 +142,7 @@ class _DrawerExampleState extends State<IsiHalaman> {
                         child: ListTile(
                           leading: Text(
                             _dataCari[index]["id"].toString(),
-                            style: TextStyle(
+                            style: const TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 20),
                           ),
                           title: Text(

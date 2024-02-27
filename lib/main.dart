@@ -46,7 +46,7 @@ class _DrawerExampleState extends State<DrawerExample> {
   @override
   void initState() {
     // TODO: implement initState
-    this.loadData();
+    loadData();
     super.initState();
   }
 
@@ -75,10 +75,10 @@ class _DrawerExampleState extends State<DrawerExample> {
               onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Pengantar()));
+                    MaterialPageRoute(builder: (context) => const Pengantar()));
               },
             ),
-            Divider(),
+            const Divider(),
             ListTile(
               leading: const Icon(Icons.compost),
               title: const Text('Ramuan Herbal'),
@@ -114,14 +114,14 @@ class _DrawerExampleState extends State<DrawerExample> {
                 });
               },
             ),
-            Divider(),
+            const Divider(),
             ListTile(
               leading: const Icon(Icons.info),
               title: const Text('Tentang'),
               onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Tentang()));
+                    MaterialPageRoute(builder: (context) => const Tentang()));
               },
             ),
           ],

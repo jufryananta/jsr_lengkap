@@ -37,7 +37,7 @@ class ResepDetail extends StatelessWidget {
                           heightFactor: 1,
                           child: Text(
                             'sumber: ' + data['sumber'],
-                            style: TextStyle(
+                            style: const TextStyle(
                                 backgroundColor:
                                     Color.fromARGB(172, 58, 58, 58),
                                 color: Colors.white),
@@ -54,22 +54,23 @@ class ResepDetail extends StatelessWidget {
                     flex: 7,
                     child: Column(children: [
                       Container(
-                          color: Color.fromARGB(255, 162, 212, 253),
+                          color: const Color.fromARGB(255, 162, 212, 253),
                           alignment: Alignment.center,
-                          padding: EdgeInsets.fromLTRB(0, 6, 0, 6),
-                          child: Text(
+                          padding: const EdgeInsets.fromLTRB(0, 6, 0, 6),
+                          child: const Text(
                             'Bahan',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 18),
                           )),
                       ListView.builder(
-                        padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                        padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                         shrinkWrap: true,
                         itemCount: data['bahan'].length,
                         itemBuilder: (context, index) {
                           return ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(5, 0, 5, 0),
-                            visualDensity: VisualDensity(vertical: -3),
+                            contentPadding:
+                                const EdgeInsets.fromLTRB(5, 0, 5, 0),
+                            visualDensity: const VisualDensity(vertical: -3),
                             title: Text(data["bahan"][index]),
                             onTap: () => showDialog<String>(
                               context: context,
@@ -100,22 +101,22 @@ class ResepDetail extends StatelessWidget {
                         },
                       ),
                       Container(
-                          color: Color.fromARGB(255, 251, 255, 201),
+                          color: const Color.fromARGB(255, 251, 255, 201),
                           alignment: Alignment.center,
-                          padding: EdgeInsets.fromLTRB(0, 4, 0, 4),
-                          margin: EdgeInsets.symmetric(vertical: 6),
-                          child: Text(
+                          padding: const EdgeInsets.fromLTRB(0, 4, 0, 4),
+                          margin: const EdgeInsets.symmetric(vertical: 6),
+                          child: const Text(
                             'Cara Membuat',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 18),
                           )),
                       ListView.builder(
-                        padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                        padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                         shrinkWrap: true,
                         itemCount: data['cara'].length,
                         itemBuilder: (context, index) {
                           return Padding(
-                              padding: EdgeInsets.all(4),
+                              padding: const EdgeInsets.all(4),
                               child: Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
@@ -125,26 +126,26 @@ class ResepDetail extends StatelessWidget {
                         },
                       ),
                       Container(
-                          color: Color.fromARGB(255, 201, 255, 234),
+                          color: const Color.fromARGB(255, 201, 255, 234),
                           alignment: Alignment.center,
-                          padding: EdgeInsets.fromLTRB(0, 4, 0, 4),
-                          margin: EdgeInsets.symmetric(vertical: 6),
-                          child: Text(
+                          padding: const EdgeInsets.fromLTRB(0, 4, 0, 4),
+                          margin: const EdgeInsets.symmetric(vertical: 6),
+                          child: const Text(
                             'Manfaat',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 18),
                           )),
                       ListView.builder(
-                        padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                        padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                         shrinkWrap: true,
                         itemCount: data['manfaat'].length,
                         itemBuilder: (context, index) {
                           return Padding(
-                              padding: EdgeInsets.all(4),
+                              padding: const EdgeInsets.all(4),
                               child: Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text('\u2022 '),
+                                    const Text('\u2022 '),
                                     Flexible(
                                         child: Text(data['manfaat'][index])),
                                   ]));
